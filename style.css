@@ -1,0 +1,79 @@
+
+/* Jumbotron */
+.jumbotron{
+    height: 900px;
+    background-image: url(jumbotron.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 170px;
+}
+
+.tombol{
+    border-radius: 30px;
+}
+
+/* Section Portfolio */
+.portfolio{
+    text-align: center;
+}
+
+.portfolio img{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+hr{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.pricing{
+    margin-top: 50px;
+    background-color: blueviolet;
+    height: 1700px;
+    padding-top: 50px;
+}
+
+.card{
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.footer{
+    display:flex ;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.footer p{
+    margin-left: 30px;
+}
+/* desktop version */
+@media(min-width:992px){
+    .jumbotron{
+        height: 600px;
+        background-image: url(jumbotron.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding-top: 170px;
+    }
+
+    /* Section Portfolio */
+    .portfolio{
+        text-align: left;
+    }
+
+    .portfolio img{
+        height: 300px;
+        width: 500px;
+    }
+
+    .pricing{
+        background-color: blueviolet;
+        height: 930px;
+        padding-top: 100px;
+    }
+}
