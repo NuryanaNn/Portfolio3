@@ -2,7 +2,7 @@
 /* Jumbotron */
 .jumbotron{
     height: 900px;
-    background-image: url(jumbotron.png);
+    background-image: url('img/jumbotron.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -54,7 +54,7 @@ hr{
 @media(min-width:992px){
     .jumbotron{
         height: 600px;
-        background-image: url(jumbotron.png);
+        background-image: url('img/jumbotron.png');
         background-repeat: no-repeat;
         background-size: cover;
         color: white;
